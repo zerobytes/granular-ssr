@@ -1,6 +1,6 @@
 {
   "name": "@granularjs/ssr",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Server-side rendering and streaming adapters for @granularjs/core.",
   "type": "module",
   "main": "./src/index.js",
@@ -10,7 +10,10 @@
     "./web": "./src/web.js",
     "./suspense": "./src/suspense.js"
   },
-  "files": ["src", "README.md"],
+  "files": [
+    "src",
+    "README.md"
+  ],
   "scripts": {
     "test": "node ./scripts/run-tests.mjs",
     "prepublishOnly": "npm test",
@@ -27,7 +30,13 @@
     "@granularjs/core": "file:../granular"
   },
   "license": "Apache-2.0",
-  "keywords": ["granular", "ssr", "streaming", "node", "web-streams"],
+  "keywords": [
+    "granular",
+    "ssr",
+    "streaming",
+    "node",
+    "web-streams"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/zerobytes/granular-ssr.git"
